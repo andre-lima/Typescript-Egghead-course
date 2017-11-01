@@ -1,9 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./two");
-var Person = /** @class */ (function () {
-    function Person() {
+var two_1 = require("./two");
+new two_1.Two();
+var App = /** @class */ (function () {
+    function App() {
         this.name = 'andre dantas';
+        console.log('Its working!', this.name);
     }
-    return Person;
+    return App;
 }());
+new App();
