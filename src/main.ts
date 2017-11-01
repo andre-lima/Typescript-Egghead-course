@@ -3,9 +3,9 @@ new Two()
 
 class App {
   name = 'andre dantas';
-  constructor(){
-    console.log('Its working!', this.name)
+  constructor(a: string){
+    console.log('Its working!', this.name, a)
   }
 }
 
-new App();
+new App('aaaa');
